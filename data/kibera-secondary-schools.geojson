@@ -1,0 +1,102 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "Name of School": "ST. NICHOLAS SENIOR SHOOL - SEC", "lat": "-1.300428", "lon": " 36.791216" }, "geometry": { "type": "Point", "coordinates": [ 36.791216, -1.300428 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "MOI GIRLS SCH - NAIROBI", "lat": "-1.301216", "lon": " 36.783265" }, "geometry": { "type": "Point", "coordinates": [ 36.783265, -1.301216 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "SIFMA SECONDARY SCH.", "lat": "-1.31092", "lon": " 36.79107" }, "geometry": { "type": "Point", "coordinates": [ 36.79107, -1.31092 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "ST. CHRISTOPHERS' SEC SCH", "lat": "-1.315526", "lon": " 36.714007" }, "geometry": { "type": "Point", "coordinates": [ 36.714007, -1.315526 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "ST. ELIZABETH BOYS HIGH SCH", "lat": "-1.307383", "lon": " 36.693746" }, "geometry": { "type": "Point", "coordinates": [ 36.693746, -1.307383 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "ST. HANNAH SEC SCH", "lat": "-1.304322", "lon": " 36.686819" }, "geometry": { "type": "Point", "coordinates": [ 36.686819, -1.304322 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "ST. ELIZABETH ACADEMY SEC", "lat": "-1.323838", "lon": " 36.705324" }, "geometry": { "type": "Point", "coordinates": [ 36.705324, -1.323838 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "ST. HANNAHS' BOYS HIGH SCH", "lat": "-1.325525", "lon": " 36.72191" }, "geometry": { "type": "Point", "coordinates": [ 36.72191, -1.325525 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "HILLCREST SEC SCHOOL", "lat": "-1.33816", "lon": " 36.73392" }, "geometry": { "type": "Point", "coordinates": [ 36.73392, -1.33816 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "RASUL AL AKRAM SEC SCH", "lat": "-1.335687", "lon": " 36.746421" }, "geometry": { "type": "Point", "coordinates": [ 36.746421, -1.335687 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "KAREN C SEC SCH", "lat": "-1.335687", "lon": " 36.741317" }, "geometry": { "type": "Point", "coordinates": [ 36.741317, -1.335687 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "NAIROBI ACADEMY SEC", "lat": "-1.337542", "lon": " 36.750791" }, "geometry": { "type": "Point", "coordinates": [ 36.750791, -1.337542 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "KAREN SOUTH SEC SCH", "lat": "-1.340948", "lon": " 36.742088" }, "geometry": { "type": "Point", "coordinates": [ 36.742088, -1.340948 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "AL MADRASA SEC SCH", "lat": "-1.361877", "lon": " 36.75703" }, "geometry": { "type": "Point", "coordinates": [ 36.75703, -1.361877 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "JARMAT GIRLS SEC SCH", "lat": "-1.327245", "lon": " 36.734311" }, "geometry": { "type": "Point", "coordinates": [ 36.734311, -1.327245 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "KARENGATA ACADEMY", "lat": "-1.357973", "lon": " 36.725311" }, "geometry": { "type": "Point", "coordinates": [ 36.725311, -1.357973 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "THE NAIROBI JAPANESE SCH-JUNIOR HIGH", "lat": "-1.33313", "lon": " 36.755387" }, "geometry": { "type": "Point", "coordinates": [ 36.755387, -1.33313 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "BROOKHOUSE SCHOOLS- SEC", "lat": "-1.342063", "lon": " 36.764677" }, "geometry": { "type": "Point", "coordinates": [ 36.764677, -1.342063 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "LANGATA HIGH SCH", "lat": "-1.322165", "lon": " 36.782124" }, "geometry": { "type": "Point", "coordinates": [ 36.782124, -1.322165 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "MALEZI SCHOOL-SEC", "lat": "-1.318627", "lon": " 36.787432" }, "geometry": { "type": "Point", "coordinates": [ 36.787432, -1.318627 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "SUNSHINE SEC SCH", "lat": "-1.317807", "lon": " 36.808488" }, "geometry": { "type": "Point", "coordinates": [ 36.808488, -1.317807 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "SHREE CUTCHI LEVA PATEL SEC", "lat": "-1.306154", "lon": " 36.822622" }, "geometry": { "type": "Point", "coordinates": [ 36.822622, -1.306154 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "NAIROBI MUSLIM ACADEMY- SEC", "lat": "-1.309647", "lon": " 36.822695" }, "geometry": { "type": "Point", "coordinates": [ 36.822695, -1.309647 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "NAIROBI SOUTH SEC SCH", "lat": "-1.3113", "lon": " 36.822745" }, "geometry": { "type": "Point", "coordinates": [ 36.822745, -1.3113 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "ST. ALOYSIUS GONZAGA SEC SCH", "lat": "-1.307671", "lon": " 36.771095" }, "geometry": { "type": "Point", "coordinates": [ 36.771095, -1.307671 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "ST MICHAELS HOLY UNITY SEC. SCH", "lat": "-1.308223", "lon": " 36.771274" }, "geometry": { "type": "Point", "coordinates": [ 36.771274, -1.308223 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "OLYMPIC SEC SCH", "lat": "-1.310756", "lon": " 36.779531" }, "geometry": { "type": "Point", "coordinates": [ 36.779531, -1.310756 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "KIBRA ACADEMY SEC. SCH", "lat": "-1.308636", "lon": " 36.781368" }, "geometry": { "type": "Point", "coordinates": [ 36.781368, -1.308636 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "RAILA EDUCATIONAL CENTER- SEC SCH", "lat": "-1.30988", "lon": " 36.782858" }, "geometry": { "type": "Point", "coordinates": [ 36.782858, -1.30988 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "ST MARKS SEC SCH", "lat": "-1.30766", "lon": " 36.775208" }, "geometry": { "type": "Point", "coordinates": [ 36.775208, -1.30766 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "SOWETO ACADEMY-SEC", "lat": "-1.313557", "lon": " 36.77483" }, "geometry": { "type": "Point", "coordinates": [ 36.77483, -1.313557 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "STARAYS HOPE COMM CENTER SEC SCH", "lat": "-1.311828", "lon": " 36.776184" }, "geometry": { "type": "Point", "coordinates": [ 36.776184, -1.311828 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "JEREMIC ADVENTIST SEC. SCH.", "lat": "-1.309527", "lon": " 36.779913" }, "geometry": { "type": "Point", "coordinates": [ 36.779913, -1.309527 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "HIS IMPERIAL MAJESTY SEC. SCH", "lat": "-1.311989", "lon": " 36.780632" }, "geometry": { "type": "Point", "coordinates": [ 36.780632, -1.311989 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "MASHIMONI SEC SCH.", "lat": "-1.307391", "lon": " 36.790351" }, "geometry": { "type": "Point", "coordinates": [ 36.790351, -1.307391 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "GLORY SEC. SCH.", "lat": "-1.309155", "lon": " 36.795117" }, "geometry": { "type": "Point", "coordinates": [ 36.795117, -1.309155 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "KIBERA ACADEMY-SEC SCH", "lat": "-1.308246", "lon": " 36.787668" }, "geometry": { "type": "Point", "coordinates": [ 36.787668, -1.308246 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "MASHIMONI CALVARY HIGH SCH", "lat": "-1.309757", "lon": " 36.789668" }, "geometry": { "type": "Point", "coordinates": [ 36.789668, -1.309757 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "ST AUGUSTUS SEC SCH", "lat": "-1.312164", "lon": " 36.789371" }, "geometry": { "type": "Point", "coordinates": [ 36.789371, -1.312164 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "JOHN PAUL MIXED SEC SCH", "lat": "-1.309352", "lon": " 36.792273" }, "geometry": { "type": "Point", "coordinates": [ 36.792273, -1.309352 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "SOWETO BAPTIST HGH SCH", "lat": "-1.31209", "lon": " 36.799824" }, "geometry": { "type": "Point", "coordinates": [ 36.799824, -1.31209 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "ST GABRIEL SEC SCH", "lat": "-1.314088", "lon": " 36.799257" }, "geometry": { "type": "Point", "coordinates": [ 36.799257, -1.314088 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "PCEA SILANGA SEC SCH", "lat": "-1.314894", "lon": " 36.796392" }, "geometry": { "type": "Point", "coordinates": [ 36.796392, -1.314894 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "ST TERESA MIXED DAY", "lat": "-1.312992", "lon": " 36.793535" }, "geometry": { "type": "Point", "coordinates": [ 36.793535, -1.312992 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "FIVE STARS HIGH SCH", "lat": "-1.311392", "lon": " 36.783374" }, "geometry": { "type": "Point", "coordinates": [ 36.783374, -1.311392 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "BARAKA ZA IBRAHIM CENTER SEC SCH", "lat": "-1.312401", "lon": " 36.783829" }, "geometry": { "type": "Point", "coordinates": [ 36.783829, -1.312401 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "ST CHARLES LWANGA SEC SCH", "lat": "-1.31615", "lon": " 36.780411" }, "geometry": { "type": "Point", "coordinates": [ 36.780411, -1.31615 ] } }
+,
+{ "type": "Feature", "properties": { "Name of School": "MAONO ED CENTRE SEC SCH", "lat": "-1.314495", "lon": " 36.775831" }, "geometry": { "type": "Point", "coordinates": [ 36.775831, -1.314495 ] } }
+
+]
+}
