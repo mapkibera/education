@@ -1,0 +1,3 @@
+baseurl: /education
+permalink: pretty
+markdown: rdiscount
