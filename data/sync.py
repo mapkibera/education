@@ -39,12 +39,14 @@ def filter_data(input_file,output_file,division_column,location_column,write_id)
   reader = csv.DictReader(open(input_file))
   writer = csv.DictWriter(open(output_file,'w'),['official_name','lat','lon'])
   header = dict()
+  # TODO add all columns
   header['official_name'] = 'official_name'
   header['lat'] = 'lat'
   header['lon'] = 'lon'
   writer.writerow(header)
   for row in reader:
     [lat,lon] = row[location_column].replace('(','').replace(')','').split(',')
+    # TODO check if we really need all of "KIBERA"
     if row[division_column] == 'KIBERA' or ((float(lat) <= north and float(lat) >= south) and (float(lon) <= east and float(lon) >= west)):
       out_row = dict()
       out_row['official_name'] = row[write_id]
@@ -74,24 +76,35 @@ def writefile(file_name, buf):
 
 def compare_osm_kenyaopendata():
   osm = geojson.loads(readfile('kibera-schools-osm.geojson'))
-  kod = geojson.loads(readfile('kibera-primary-schools.geojson'))
+  kod = geojson.loads(readfile('kibera-primary-schools.geojson')) # todo, combine both primary and secondary schools
   result = {}
   result['type'] = 'FeatureCollection'
   result['features'] = []
 
+  #TODO make sure all features in KOD are in OSM (through osmly)
   for feature in osm.features:
+    points = [(feature.geometry.coordinates[0], feature.geometry.coordinates[1])]
+    properties = feature.properties
     if 'official_name' in feature.properties:
       for kod_feature in kod.features:
         if 'official_name' in kod_feature.properties and kod_feature.properties['official_name'] == feature.properties['official_name']:
           #print feature.properties['official_name']
-          geom = MultiPoint([(feature.geometry.coordinates[0], feature.geometry.coordinates[1]),(kod_feature.geometry.coordinates[0],  kod_feature.geometry.coordinates[1])])
-          result['features'].append( { "type": "Feature", "properties": feature.properties, "geometry": geom })
+          points.append((kod_feature.geometry.coordinates[0],  kod_feature.geometry.coordinates[1]))
+          for kod_property in kod_feature.properties.keys():
+            if kod_property != 'lat' and kod_property != 'lon':
+              properties[ "kenyaopendata:" + kod_property] = kod_feature.properties[ kod_property ]
+
+    geom = MultiPoint(points)
+    result['features'].append( { "type": "Feature", "properties": properties, "geometry": geom })
 
   dump = geojson.dumps(result)
   writefile('kibera-combined-schools.geojson',dump)
-  
+
+#TODO make command line configurable .. Fabric?  
 #kenyaopendata()
 #filter_kenyaopendata()
 #convert2geojson()
 #sync_osm()
 compare_osm_kenyaopendata()
+
+#TODO generate statistics on each run of comparison results
