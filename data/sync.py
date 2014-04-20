@@ -4,6 +4,7 @@ import base64
 import csv
 import os
 import geojson
+from geojson import MultiPoint
 
 north = -1.3000
 south = -1.3232
@@ -83,7 +84,7 @@ def compare_osm_kenyaopendata():
       for kod_feature in kod.features:
         if 'official_name' in kod_feature.properties and kod_feature.properties['official_name'] == feature.properties['official_name']:
           #print feature.properties['official_name']
-          geom = "MultiPoint([(" + str(feature.geometry.coordinates[0]) + "," + str(feature.geometry.coordinates[1]) + "),(" + str(kod_feature.geometry.coordinates[0]) + "," + str(kod_feature.geometry.coordinates[1]) + ")])"
+          geom = MultiPoint([(feature.geometry.coordinates[0], feature.geometry.coordinates[1]),(kod_feature.geometry.coordinates[0],  kod_feature.geometry.coordinates[1])])
           result['features'].append( { "type": "Feature", "properties": feature.properties, "geometry": geom })
 
   dump = geojson.dumps(result)
